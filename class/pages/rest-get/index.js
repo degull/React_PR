@@ -16,9 +16,9 @@ export default function RestGetPage(){
    // async function onClickSync(){    => 원래방식
       const onClickSync = async () => {
       const result = await axios.get("https://koreanjson.com/posts/1")
-      console.log(result)
+      /* console.log(result)
       console.log(result.data)
-      console.log(result.data.title)
+      console.log(result.data.title) */
       setTitle(result.data.title)
    }
 
