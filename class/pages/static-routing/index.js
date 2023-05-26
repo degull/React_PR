@@ -8,7 +8,7 @@ export default function StaticRoutingPage(){
    const router = useRouter()
 
    const onClickMove = () =>{
-      router.push("/static-router")
+      router.push("/static-routed")
    }
 
    return (

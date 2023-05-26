@@ -3,7 +3,7 @@ import { ApolloClient, ApolloProvider, InMemoryCache } from '@apollo/client';
 
 function MyApp({ Component, pageProps }) {
   const client = new ApolloClient({
-    uri: 'http://backendonline.codebootcamp.co.kr/graphql',
+    uri: 'http://practice.codebootcamp.co.kr/graphql',
     cache: new InMemoryCache(),
   });
 
